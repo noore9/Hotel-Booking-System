@@ -1,0 +1,112 @@
+import java.util.*;
+class BookHotel
+{
+	static Scanner sc=new Scanner(System.in);
+	static BookHotel obj=new bookHotel();
+	void home()
+	{	
+		System.out.println("---SELECT YOUR LOCATION");
+		System.out.println("1.HYDERABAD");
+		System.out.println("2.BANGLORE");
+		System.out.println("3.CHENNAI");
+		int n=sc.nextInt();
+		if(n==1)
+		{
+			obj.hyderabad();
+		}
+		else if(n==2)
+		{
+			obj.banglore();
+		}
+		else if(n==3)
+		{
+			obj.chennai();
+		}
+		else if(n==4)
+		{
+			obj.home();
+		}
+	}
+	void hyderabad()
+	{
+		System.out.println("--SELECT YOUR HOTEL---");
+		System.out.println("oyo1 ---> 4.5");
+		System.out.println("oyo2 ---> 4.3");
+		System.out.println("oyo3 ---> 4.0");
+		int n=sc.nextInt();
+		switch(n)
+		{
+			case 1:
+					System.out.println("Welcome to HOTEL 1");
+					System.out.println("Select room type");
+					obj.Hotel1();
+			case 2:
+					System.out.println("Welcome to HOTEL 2");
+					System.out.println("Select room type");	
+					obj.Hotel2();
+			case 3:
+					System.out.println("Welcome to HOTEL 3");
+					System.out.println("Select room type");
+					obj.Hotel3();
+			default:
+					obj.home();
+		}
+				
+	}
+	void banglore()
+	{
+		System.out.println("--SELECT YOUR HOTEL---");
+		System.out.println("oyo1 ---> 4.5");
+		System.out.println("oyo2 ---> 4.3");
+		System.out.println("oyo3 ---> 4.0");
+		int n=sc.nextInt();
+		switch(n)
+		{
+			case 1:
+					System.out.println("Welcome to HOTEL 1");
+					System.out.println("Select room type");
+					obj.Hotel1();
+			case 2:
+					System.out.println("Welcome to HOTEL 2");
+					System.out.println("Select room type");	
+					obj.Hotel2();
+			case 3:
+					System.out.println("Welcome to HOTEL 3");
+					System.out.println("Select room type");
+					obj.Hotel3();
+			default:
+					obj.home();
+		}
+	}
+	void chennai()
+	{
+		System.out.println("--SELECT YOUR HOTEL---");
+		System.out.println("oyo1 ---> 4.5");
+		System.out.println("oyo2 ---> 4.3");
+		System.out.println("oyo3 ---> 4.0");
+		int n=sc.nextInt();
+		switch(n)
+		{
+			case 1:
+					System.out.println("Welcome to HOTEL 1");
+					System.out.println("Select room type");
+					obj.Hotel1();
+			case 2:
+					System.out.println("Welcome to HOTEL 2");
+					System.out.println("Select room type");	
+					obj.Hotel2();
+			case 3:
+					System.out.println("Welcome to HOTEL 3");
+					System.out.println("Select room type");
+					obj.Hotel3();
+			default:
+					obj.home();
+		}
+	}
+	void Hotel1()
+	{
+		
+	}
+	
+}
+	
